@@ -15,6 +15,11 @@ export const SocialData = [
         icon: require('../../assets/icons/medium.png').default,
     },
     {
+        platform:"Wordpress",
+        link: "https://ozerozturkk.wordpress.com/",
+        icon: require('../../assets/icons/wordpress.png').default,
+    },
+    {
         platform:"Twitter",
         link: "https://twitter.com/ozerozturkkk",
         icon: require('../../assets/icons/twitter.png').default,
