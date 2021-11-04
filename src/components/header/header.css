@@ -27,9 +27,10 @@
 
 .logo {
   display: flex;
-  font-size: 36px;
+  font-size: 26px;
   color: blueviolet;
-  font-weight: 800;
+  font-family: "Sabrina Pamella", sans-serif;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 720px) {
@@ -40,6 +41,6 @@
     display: none;
   }
   .logo {
-    font-size: 24px;
+    font-size: 16px;
   }
 }

@@ -8,7 +8,7 @@
 }
 
 .project-photo {
-  width: 40%;
+  width: 35%;
 }
 
 .project-info {
@@ -62,7 +62,7 @@
 
 @media only screen and (max-width: 720px) {
   .project-photo {
-    width: 70%;
+    width: 65%;
   }
   .project-card {
     flex-direction: column-reverse;
