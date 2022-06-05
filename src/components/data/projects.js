@@ -1,41 +1,77 @@
-export const ProjectData =[
-    {
-        id:1,
-        title:"Dio Visual",
-        about:"A Portfolio for Digital Content Creation Service. DIO Visual is a company that forces you to think differently with an innovative perspective. They have put forward interesting projects in the field of video editing with their creative mindset.  ",
-        tags:["HTML", "CSS", "JavaScript", "Portfolio", "Video", "Photography"],
-        demo:"https://diovisual.netlify.app/",
-        github:"https://github.com/OzerOzturk/Dio-Visual-Portfolio",
-        image:require('../../assets/project-image/diovisual.png').default,
-    },
-    {
-        id:2,
-        title:"Weather App",
-        about:"I used Weather API in this project.Photographs came directly from unsplash.com as a random selector, but also they're related to the cities which you're looking at using the search bar.",
-        tags:["HTML", "CSS", "JavaScript", "Weather", "API"],
-        demo:"https://ozerozturk.github.io/Javascript-fundamental-projects/Weather-App/index.html",
-        github:"https://github.com/OzerOzturk/Javascript-fundamental-projects/tree/master/Weather-App",
-        image:require('../../assets/project-image/weather.png').default,
-
-    },
-    {
-        id:3,
-        title:"Sut Liman",
-        about:"Süt Liman is a new and developing store that selling cheese, olive&olive oil, honey, marmalade and local products to their customers. And I did this project to support them.",
-        tags:["HTML", "CSS", "JavaScript", "Local", "Food", "Market", "E-Commerce"],
-        demo:"https://sutliman.netlify.app/",
-        github:"https://github.com/OzerOzturk/Sut-Liman",
-        image:require('../../assets/project-image/sutliman.png').default,
-
-    },
-    {
-        id:4,
-        title:"Hulu Clone",
-        about:"Hulu is an American subscription video on demand service. I tried to make Hulu webpage clone.",
-        tags:["HTML", "CSS", "JavaScript", "Media", "Services"],
-        demo:"https://hulu-clone-site.netlify.app/",
-        github:"https://github.com/OzerOzturk/Hulu-Clone",
-        image:require('../../assets/project-image/hulu.png').default,
-
-    }
-]
+export const ProjectData = [
+  {
+    id: 1,
+    title: "Bursapediary Donation App",
+    about:
+      "Bursapediary makes it easy and safe for you to give support to local projects anywhere in the world, while providing nonprofits and individuals with the tools, training, and support they need to thrive.",
+    tags: [
+      "ReactJS",
+      "Redux",
+      "JavaScript",
+      "Tailwind",
+      "Formik",
+      "EmailJS",
+      "Mapbox",
+      "API",
+    ],
+    github: "https://github.com/ReCoded-Org/capstone-turkey-react-bursapediary",
+    image: require("../../assets/project-image/bursapediary.png").default,
+  },
+  {
+    id: 2,
+    title: "Amazon Clone",
+    about:
+      "In this full e-commerce project, you can register/sign in and start to shop. You can add items to the basket, delete them, list your products, and start the payment stage with stripe functionality.",
+    tags: [
+      "ReactJS",
+      "Context API",
+      "Stripe",
+      "Firebase Authentication",
+      "React Router",
+    ],
+    demo: "https://amaznclone2022.web.app/",
+    github: "https://github.com/OzerOzturk/Amazon-Clone",
+    image: require("../../assets/project-image/amazon.png").default,
+  },
+  {
+    id: 3,
+    title: "Netflix Clone",
+    about:
+      "Sign in and signup with Firebase Authentication, searching movie and TV series and playing intro videos of products.",
+    tags: [
+      "ReactJS",
+      "Context API",
+      "React Router",
+      "Styled Component",
+      "Firebase Authentication",
+    ],
+    demo: "https://netflix-clone-reactt.web.app/",
+    github: "https://github.com/OzerOzturk/Netflix-Clone",
+    image: require("../../assets/project-image/netflix.jpg").default,
+  },
+  {
+    id: 4,
+    title: "Airbnb Clone",
+    about:
+      "You can search for available rooms by Explore Nearby or Search Date buttons.",
+    tags: [
+      "ReactJS",
+      "Material UI",
+      "React Router",
+      "Flexbox",
+      "React Date Picker",
+    ],
+    demo: "https://airbnb-clone-cde6b.web.app/",
+    github: "https://github.com/OzerOzturk/Airbnb-Clone",
+    image: require("../../assets/project-image/airbnb.png").default,
+  },
+  {
+    id: 5,
+    title: "MERN Map Pin App",
+    about:
+      "Provide you with information on places you're looking for. You can register and then login to pin your location with your comments and ratings.",
+    tags: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Mapbox"],
+    github: "https://github.com/OzerOzturk/MERN-Map-Pin-App",
+    image: require("../../assets/project-image/mappin.jpg").default,
+  },
+];
