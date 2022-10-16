@@ -5,41 +5,61 @@ export const ProjectData = [
     about:
       "Bursapediary makes it easy and safe for you to give support to local projects anywhere in the world, while providing nonprofits and individuals with the tools, training, and support they need to thrive.",
     tags: [
-      "ReactJS",
+      "Reactjs",
       "Redux",
       "JavaScript",
-      "Tailwind",
+      "TailwindCSS",
       "Formik",
       "EmailJS",
       "Mapbox",
       "API",
     ],
     github: "https://github.com/ReCoded-Org/capstone-turkey-react-bursapediary",
-    image: require("../../assets/project-image/bursapediary.png").default,
+    image: require("../../assets/project-image/bursapediary.jpg").default,
   },
   {
     id: 2,
-    title: "Amazon Clone",
+    title: "React Planet Movie 📽",
     about:
-      "In this full e-commerce project, you can register/sign in and start to shop. You can add items to the basket, delete them, list your products, and start the payment stage with stripe functionality.",
+      "You can reach out to the trending movies, watch trailer, filter them with your favorite categories, view the details such as score, cast and also search for specific movie or tv series.",
     tags: [
-      "ReactJS",
-      "Context API",
-      "Stripe",
-      "Firebase Authentication",
+      "Reactjs",
+      "Material UI",
       "React Router",
+      "Flexbox",
+      "The Movie Database API",
     ],
-    demo: "https://amaznclone2022.web.app/",
-    github: "https://github.com/OzerOzturk/Amazon-Clone",
-    image: require("../../assets/project-image/amazon.png").default,
+    demo: "https://planetmovie.netlify.app/",
+    github: "https://github.com/OzerOzturk/React-Planet-Movie",
+    image: require("../../assets/project-image/planetmovie.jpg").default,
   },
   {
     id: 3,
-    title: "Netflix Clone",
+    title: "ÇicekSepeti Clone",
+    about:
+      "This e-commerce project includes shopping cart function and also search filter function for your items. It's a completely responsive design.",
+    tags: ["Reactjs", "Context API", "Sass", "Flexbox"],
+    demo: "https://ciceksepeti-react.netlify.app/",
+    github: "https://github.com/OzerOzturk/ciceksepeti-frontend-case",
+    image: require("../../assets/project-image/ciceksepeti.png").default,
+  },
+
+  {
+    id: 4,
+    title: "MERN Map Pin App 📍",
+    about:
+      "Provide you with information on places you're looking for. You can register and then login to pin your location with your comments and ratings.",
+    tags: ["MongoDB", "Expressjs", "Reactjs", "Nodejs", "Mapbox"],
+    github: "https://github.com/OzerOzturk/MERN-Map-Pin-App",
+    image: require("../../assets/project-image/mappin.jpg").default,
+  },
+  {
+    id: 5,
+    title: "Netflix Clone 🍿",
     about:
       "Sign in and signup with Firebase Authentication, searching movie and TV series and playing intro videos of products.",
     tags: [
-      "ReactJS",
+      "Reactjs",
       "Context API",
       "React Router",
       "Styled Component",
@@ -49,29 +69,14 @@ export const ProjectData = [
     github: "https://github.com/OzerOzturk/Netflix-Clone",
     image: require("../../assets/project-image/netflix.jpg").default,
   },
+
   {
-    id: 4,
-    title: "Airbnb Clone",
+    id: 6,
+    title: "Home Finder 🏠",
     about:
-      "You can search for available rooms by Explore Nearby or Search Date buttons.",
-    tags: [
-      "ReactJS",
-      "Material UI",
-      "React Router",
-      "Flexbox",
-      "React Date Picker",
-    ],
-    demo: "https://airbnb-clone-cde6b.web.app/",
-    github: "https://github.com/OzerOzturk/Airbnb-Clone",
-    image: require("../../assets/project-image/airbnb.png").default,
-  },
-  {
-    id: 5,
-    title: "MERN Map Pin App",
-    about:
-      "Provide you with information on places you're looking for. You can register and then login to pin your location with your comments and ratings.",
-    tags: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "Mapbox"],
-    github: "https://github.com/OzerOzturk/MERN-Map-Pin-App",
-    image: require("../../assets/project-image/mappin.jpg").default,
+      "Home finder shows us properties that are available for sale in the United States. When searching for your next home, you can sort by newness, price, and height.",
+    tags: ["Nextjs", "TailwindCSS", "React Router", "Realty API"],
+    github: "https://github.com/OzerOzturk/nextjs-real-estate",
+    image: require("../../assets/project-image/homefinder.png").default,
   },
 ];

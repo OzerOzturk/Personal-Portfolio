@@ -8,6 +8,11 @@
   font-size: 20px;
   margin-right: 16px;
   font-weight: 600;
+  opacity: 0.8;
+}
+
+.web-option:hover {
+  opacity: 1;
 }
 
 .web-option a {

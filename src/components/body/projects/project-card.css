@@ -1,14 +1,25 @@
 .project-card {
+  height: 300px;
   display: flex;
   flex: 1;
   justify-content: space-between;
   align-items: center;
-  margin: 16px 0px;
-  padding: 8px 0px;
+  margin: 48px 0px;
+  padding: 16px;
+  transition: box-shadow 0.3s;
+  border-radius: 10px;
+  border: 1px solid rgb(211, 199, 255);
+  box-shadow: 0 0 10px rgba(33, 33, 33, 0.2);
+}
+
+.project-card:hover {
+  box-shadow: 0 0 20px rgba(33, 33, 33, 0.2);
+  cursor: pointer;
 }
 
 .project-photo {
   width: 35%;
+  border-radius: 8px;
 }
 
 .project-info {
@@ -61,9 +72,15 @@
 }
 
 @media only screen and (max-width: 720px) {
-  .project-photo {
-    width: 65%;
+  .project-card {
+    height: 275px;
+    justify-content: center;
   }
+
+  .project-photo {
+    display: none;
+  }
+
   .project-card {
     flex-direction: column-reverse;
   }

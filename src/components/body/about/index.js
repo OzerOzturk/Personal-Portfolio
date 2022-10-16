@@ -8,11 +8,10 @@ function About() {
         <br />
         I'm a curious
         <span className="about-info-role"> Frontend Developer</span> with an
-        engineering background who enjoys building smooth responsive user
-        interfaces. I developed myself using many open source projects. Now I'm
-        trying to contribute to the community in various ways. By taking part in
-        global teams, I aim to reach many users and bring effective solutions to
-        existing problems.
+        engineering background.
+        <br /> I enjoy building smooth responsive user interfaces and also
+        developed myself using many open source projects. Now I'm trying to
+        contribute to the community in various ways.
       </div>
       <div className="about-photo">
         <img

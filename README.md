@@ -1,6 +1,6 @@
 # Personal Portolio 📃
 
-🎨 With this work, I wanted to briefly write and "show" my current and featured projects, blog posts with the skills I have. 
+I wanted to briefly display my featured projects, blog posts, and the skills I have. 
 
 If you want to see my porfolio you can click [here](https://ozerozturk.netlify.app/).  
 

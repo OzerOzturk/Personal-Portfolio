@@ -18,9 +18,17 @@
   font-size: 26px;
 }
 
+.about-info-name:hover {
+  color: #7836da;
+}
+
 .about-info-role {
   color: #7836da;
   font-size: 22px;
+}
+
+.about-info-role:hover {
+  color: blue;
 }
 
 @media only screen and (max-width: 720px) {
