@@ -14,6 +14,7 @@
   display: flex;
   justify-content: flex-end;
   font-size: 24px;
+  cursor: pointer;
 }
 
 .mobile-options {
@@ -36,4 +37,5 @@
   text-decoration: none;
   color: black;
   display: flex;
+  cursor: pointer;
 }

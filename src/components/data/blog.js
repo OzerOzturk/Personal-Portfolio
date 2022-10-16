@@ -32,12 +32,11 @@ export const BlogData = [
       "The term “Thinking Outside of the Box” narrate the hidden solutions of the events that we all encounter at least once in our lives...",
   },
   {
-    title: "Do not postpone for another time",
-    postLogo: "https://miro.medium.com/max/1400/1*xJN735uUxoZ8RxfJKUO-bg.jpeg",
-    postLink:
-      "https://ozerozturkk.medium.com/do-not-postpone-for-another-time-51e10bba0d0d",
+    title: "Up and Down",
+    postLogo: "https://miro.medium.com/max/4800/0*t0ARoC8IVMSm_Tyb",
+    postLink: "https://ozerozturkk.medium.com/up-and-down-36da919aaa6c",
     content:
-      "I realized that I always postponed the things I care about to another time. I keep postponing things like...",
+      "On the other hand, there are so many factors around us that distract us, try to attract our attention, and want to take our time. These are as close as...",
   },
   {
     title: "Changing the Environment with GDG DevFest",

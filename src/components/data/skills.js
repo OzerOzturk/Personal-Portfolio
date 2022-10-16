@@ -22,6 +22,10 @@ export const SkillsData = [
         icon: <i class="devicon-materialui-plain colored"></i>,
       },
       {
+        name: "Sass",
+        icon: <i class="devicon-sass-original colored"></i>,
+      },
+      {
         name: "JavaScript",
         icon: <i class="devicon-javascript-plain colored"></i>,
       },
@@ -32,6 +36,10 @@ export const SkillsData = [
       {
         name: "Redux",
         icon: <i class="devicon-redux-original colored"></i>,
+      },
+      {
+        name: "NextJS",
+        icon: <i class="devicon-nextjs-original colored"></i>,
       },
       {
         name: "Git",

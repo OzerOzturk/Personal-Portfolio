@@ -1,11 +1,7 @@
-import React from 'react'
-import './footer.css'
+import React from "react";
+import "./footer.css";
 function Footer() {
-    return (
-        <footer className='footer'> 
-            Made with 🔥 
-        </footer>
-    )
+  return <footer className="footer">© Designed & Built by Özer Öztürk</footer>;
 }
 
-export default Footer
+export default Footer;

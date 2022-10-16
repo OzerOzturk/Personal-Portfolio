@@ -1,20 +1,14 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  flex: 1;
-  padding: 12px;
-  position: relative;
-  align-items: center;
-}
-
 .menu {
   display: flex;
   flex: 1;
+  padding: 12px;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .menu-icon {
   font-size: 24px;
+  cursor: pointer;
 }
 
 .mobile-menu {
@@ -25,22 +19,11 @@
   display: flex;
 }
 
-.logo {
-  display: flex;
-  font-size: 46px;
-  color: blueviolet;
-  font-family: 'Herr Von Muellerhoff', cursive;
-  font-weight: 500;
-}
-
 @media only screen and (max-width: 720px) {
   .mobile-menu {
     display: flex;
   }
   .web-menu {
     display: none;
-  }
-  .logo {
-    font-size: 16px;
   }
 }

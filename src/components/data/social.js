@@ -20,9 +20,13 @@ export const SocialData = [
     icon: require("../../assets/icons/twitter.png").default,
   },
   {
+    platform: "Unsplash",
+    link: "https://unsplash.com/@ozerozturk",
+    icon: require("../../assets/icons/unsplash.png").default,
+  },
+  {
     platform: "Wordpress",
     link: "https://ozerozturkk.wordpress.com/",
     icon: require("../../assets/icons/wordpress.png").default,
   },
 ];
-

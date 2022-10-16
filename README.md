@@ -1,8 +1,6 @@
-# Personal Portolio with ReactJS
+# Personal Portolio 📃
 
-⚡ I am pretty excited to present my portfolio project that I created with ReactJS.
-
-With this work, I wanted to briefly write and 🎨 "show" my current and featured projects, blog posts with the skills I have. Also, I stated who I am, and what I aim for in short.
+🎨 With this work, I wanted to briefly write and "show" my current and featured projects, blog posts with the skills I have. 
 
 If you want to see my porfolio you can click [here](https://ozerozturk.netlify.app/).  
 

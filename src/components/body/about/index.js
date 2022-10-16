@@ -1,27 +1,27 @@
 import React from "react";
-import SocialContact from "../../common/social-contact";
 import "./about.css";
 function About() {
   return (
-    <div className="about">
-      <div className="about-top">
-        <div className="about-info">
-          Hi 👋, I'm <span className="info-name"> Özer</span>
-          <br />
-          Self-Taught Frontend Developer
-          <br />I'm keen on learning new things and I try to contribute to communities.
-        </div>
-        <div className="about-photo">
-          <img
-            src={require("../../../assets/coding.png").default}
-            alt="coding"
-            className="picture"
-          />
-        </div>
+    <section className="about">
+      <div className="about-info">
+        Hi 👋, I'm <span className="about-info-name"> Özer Öztürk</span>
+        <br />
+        I'm a curious
+        <span className="about-info-role"> Frontend Developer</span> with an
+        engineering background who enjoys building smooth responsive user
+        interfaces. I developed myself using many open source projects. Now I'm
+        trying to contribute to the community in various ways. By taking part in
+        global teams, I aim to reach many users and bring effective solutions to
+        existing problems.
       </div>
-      <div className="about-bottom"></div>
-      <SocialContact />
-    </div>
+      <div className="about-photo">
+        <img
+          src={require("../../../assets/coding.png").default}
+          alt="coding"
+          className="picture"
+        />
+      </div>
+    </section>
   );
 }
 

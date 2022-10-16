@@ -1,8 +1,5 @@
 .about {
-  padding-bottom: 48px;
-}
-
-.about-top {
+  padding-bottom: 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,16 +10,21 @@
 }
 
 .about-info {
-  font-size: 24px;
+  font-size: 20px;
 }
 
-.info-name {
+.about-info-name {
   color: blue;
-  font-size: 32px;
+  font-size: 26px;
+}
+
+.about-info-role {
+  color: #7836da;
+  font-size: 22px;
 }
 
 @media only screen and (max-width: 720px) {
-  .about-top {
+  .about {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -31,9 +33,12 @@
     height: 280px;
   }
   .about-info {
-    font-size: 20px;
+    font-size: 18px;
   }
-  .info-name {
-    font-size: 26px;
+  .about-info-name {
+    font-size: 22px;
+  }
+  .about-info-role {
+    font-size: 20px;
   }
 }
